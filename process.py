@@ -33,9 +33,7 @@ X = np.array(ct.fit_transform(X))
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 y = le.fit_transform(y)
-
-## Hi Namaste, Aloo Baingan Saste
-
+## oooo Bhai maaro mujjhe maaroooooooooooooo!
 """Splitting the dataset into the Training set and Test set """
 
 from sklearn.model_selection import train_test_split
