@@ -34,6 +34,8 @@ from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 y = le.fit_transform(y)
 
+## Hi Namaste, Aloo Baingan Saste
+
 """Splitting the dataset into the Training set and Test set """
 
 from sklearn.model_selection import train_test_split
