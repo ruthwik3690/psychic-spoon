@@ -1,0 +1,49 @@
+body{
+	margin:0px auto;/* auto:automatically adjusts to center*/
+	width: 100%;/* it means 100% of your screen size */
+	font-family: 'Ubuntu ', sans-serif;
+}
+nav ul li{
+	list-style-type: none;/* bullets/decimals */
+	float: left; /* display the content from left to right or right to left*/
+	padding-right:9.83em;/* gives spacing to the list */ 
+	color:#f5f5f5;/*check out color hunt for best colors */
+}
+nav ul{
+	float: left; /* display to the left of page or right of page */
+}
+nav{
+	width: 100% auto;
+	height: 50px;
+	background-color:#0f4c75; 
+	position: fixed;/* to fix the nav bar so that it still remains there if we go to to other sections*/
+}
+nav ul li a
+{
+	text-decoration: none;
+	color:#fff;
+}
+section{
+	background-color:#ececec;
+}
+.home{
+	background-color:#4e89ae;
+	text-align: center;
+	font-size:40px;
+	color:#f5f5f5;
+	/*padding: 150px;*/
+	display: table;
+	height:100vh;/*vh is view height which is nothing but screen height*/
+	width:100%;
+}
+.inner
+{
+	display: table-cell;
+	vertical-align: middle;
+}	
+.home .inner img
+{
+	border-radius: 100%;
+	width: 200px;
+	height: auto;
+}
